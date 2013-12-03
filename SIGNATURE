@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5a348c40ee8daedd40c5954f5f2108c38eae6fe2 Build.PL
+SHA1 9ba9a5fa795faaadcb8588fc8e0f67738be330a4 Changes
+SHA1 2b3ccb88f716f614f8af721a1c69dba0bcdbbb32 LICENSE
+SHA1 03ed1472ebedda133203cf3660510d400510d29d MANIFEST
+SHA1 1f5f1fd7456dc750a3813eb9a2443a854998b745 META.json
+SHA1 33d2aaa4353c92d91440d2df02ff2f1406858f14 META.yml
+SHA1 bfde844980ee697fff673ebff5125c0be1c3e21c README
+SHA1 169862dbbe7de52188768b9982c5c75c02877f0f lib/Dist/Zilla/Plugin/AbstractFromPOD.pm
+SHA1 ebb85bc50102f9cdaa73c149b96741cdd3931c89 t/01always_pass.t
+SHA1 c8345dc48258d5a1ba9c8168bd26139cd568695a t/02pod.t
+SHA1 d7466f9ebd49a3aeb3a3af76d8006a2221810575 t/03podcoverage.t
+SHA1 eec25f2d737346603ad7d8e6c0f58ad300a7b8d1 t/04critic.t
+SHA1 3b66637a8679f86e5b401b33b22912b3b90e292a t/05kwalitee.t
+SHA1 49c65e976ce2cec89be109c479b762cc36ecb63f t/06yaml.t
+SHA1 10dd4c9a1e582ff9565f56eee1ce7d2f45cf27ed t/07podspelling.t
+SHA1 d5950ba5ca40dbabe55e7c407104d0bbf2218fad t/10test_script.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSneeJAAoJEK492j4Im1Bpp+MH/3RBWkYuv6K+RWB0udbWk7Vj
+GrI1gDgtMdhPQGOmut5fHe8mWw6yphhXkU+XKij3gkPhqm8J7wBFp31psGGh9n/k
+2j3/nC3bxcUldlZ2CFdXqLrZvBoplU6BbvQJNLv7G2b+E7VojY2gyDHv4z6tjKvh
+LXxzjBd/dlKR7P/D7n4xpKNuJXJPUZX2MfLrcYHaQoHTWwwNKA4pmufefJWQ6YFC
+8u2IIg3fjpJ1QJdYABiO4iNYfVjaFfulG/jlgW2tSzQM4NRdbocv+6+1wTYGlhmB
+mjqFjETxYIsHlvgEg2XLsz7C5qWf9//jzPJaQp3N+6Kp94XNWQ53OPhS6xpvk9E=
+=YsXp
+-----END PGP SIGNATURE-----

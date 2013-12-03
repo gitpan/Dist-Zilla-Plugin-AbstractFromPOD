@@ -1,0 +1,66 @@
+{
+   "abstract" : "Case insensitive head1 POD matching for the Name attribute",
+   "author" : [
+      "Peter Flanigan, C<< <pjfl@cpan.org> >>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-AbstractFromPOD",
+   "no_index" : {
+      "directory" : [
+         "examples",
+         "inc",
+         "share",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.4004",
+            "Test::Requires" : "0.06",
+            "version" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4004",
+            "version" : "0.88"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dist::Zilla" : "5.006",
+            "Moose" : "2.0802",
+            "perl" : "5.008",
+            "version" : "0.88"
+         }
+      }
+   },
+   "provides" : {
+      "Dist::Zilla::Plugin::AbstractFromPOD" : {
+         "file" : "lib/Dist/Zilla/Plugin/AbstractFromPOD.pm",
+         "version" : "v0.2.1"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-Dist-Zilla-Plugin-AbstractFromPOD@rt.cpan.org",
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-AbstractFromPOD"
+      },
+      "homepage" : "https://metacpan.org/author/PJFL",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.2.1"
+}
+
